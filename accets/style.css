@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html {
+    overflow-x: hidden;
+    background-color: #FEF5E4;
+}
+
+.note {
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+    background: #6140FF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;    
+    text-align: center;
+    color: #FCF8F2;
+    top: 4px;
+}
+
+#checkbox-menu {
+    display: none;
+}
+
+.menu {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    font-size: 17px;
+    padding: 10px 15px;
+    
+}
+
+.menu li a.logo {
+    margin-right: 380px;
+}
+
+.menu li a.btn {
+color: white;
+background:#6140FF;
+border: 2px solid #6140FF;
+padding: 20px;
+border-radius: 4px;
+}
+
+.intro {
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+p.intro-text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 52px;
+margin-bottom: 30px;
+}
+
+.intropng {
+    margin-left: 230px;
+}
+
+p.intro-note {
+    font-size: 11px;
+    color: #655B6E;
+    margin-bottom: 18px;
+}
+
+.intro-img {
+    background-image: url(/accets/images/3.png);
+}
+
+p.credit {
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #655B6E;
+margin-top: 5px;
+}
+
+p.intro-btn {
+    background: #FABC32;
+    padding: 20px;
+    width: 230px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
